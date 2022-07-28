@@ -1,0 +1,184 @@
+:root{
+    --blue: rgb(0, 195, 255);
+    --gray: gray;
+    --white: white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--gray);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cormorant SC', serif;
+}
+.section {
+    padding: 60px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+}
+
+a {
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.headerimg {
+    background-image: url(7169590.jpg);
+    background-size: cover;
+    height: 120px;
+    padding: 60px;
+}
+
+#imgtext {
+    display: block;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: black;
+    color: var(--blue);
+    float: right;
+}
+
+header h1{
+    display: flex;
+    justify-content: flex-start;
+    color: var(--blue);
+    font-size: 40px;
+    margin-left: 14px;
+}
+
+nav a {
+    float: left;
+    color: var(--blue);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+}
+
+.Aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 45px;
+    font-family: 'Abril Fatface';
+    color: var(--blue);
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    padding: 6%;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.abtmetext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--blue);
+    padding-left: 7%;
+    width: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    padding: 40px;
+}
+
+.refraction {
+    background-image: url(https://user-images.githubusercontent.com/106449899/180138146-4925cdef-e2cb-4c37-9bb6-db8fe44b7326.png);
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    border: var(--white) 7px solid;
+}
+
+.refraction:hover {
+    opacity: 60%;
+}
+
+.refractiontxt {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    border: var(--white) 7px solid;
+    color: var(--blue) ;
+    background-color: var(--white);
+    margin-top: 400px;
+    height: 20%;
+}
+
+.otherwork p {
+    display: inline-block;
+    text-align: center;
+    margin-right: 400px;
+    font-size: 30px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    border: var(--white) 7px solid;
+    color: var(--blue) ;
+    background-color: var(--white);
+}
+
+.otherwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+
+.otherprojects {
+    background-image: url(https://via.placeholder.com/150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+     width: 47.5%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border: var(--white) 5px solid;
+}
+
+.otherprojects:hover {
+    opacity: 60%;
+}
+
+@media screen and (max-width: 992px) {
+    .otherprojects {
+        width: 75%;
+        flex-direction: column;
+    }
+}
