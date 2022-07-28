@@ -3,6 +3,7 @@
     --gray: gray;
     --white: white;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
