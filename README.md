@@ -13,4 +13,5 @@ Repository: https://github.com/saucymj/Portfolio
 
 ## Screenshot
 
-![DFB6681B-752A-4C94-A091-F92693F8D903](https://user-images.githubusercontent.com/106449899/181634929-78d9e186-7503-4329-9482-4ffd539b9670.jpeg)
+![62755B7D-46D5-4995-99EC-CBD4C5F9C17A](https://user-images.githubusercontent.com/106449899/181665615-6e80dc11-5e37-447e-934b-5b61765fbcd8.jpeg)
+
